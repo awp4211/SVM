@@ -14,6 +14,8 @@ int main()
 	float labels[4] = { 1.0, -1.0, -1.0, -1.0 };
 	Mat labelsMat(3, 1, CV_32FC1, labels);
 
+
+
 	float trainingData[4][2] = { 
 		{ 501, 10 },
 		{ 255, 10 },
